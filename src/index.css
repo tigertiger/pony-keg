@@ -26,3 +26,11 @@ h1 {
 #horseFriend {
   border-radius:50%;
 }
+
+#kegGrid {
+  margin:auto;
+  width:80%;
+  display:grid;
+  grid-template-areas:
+  'main main main';
+}
