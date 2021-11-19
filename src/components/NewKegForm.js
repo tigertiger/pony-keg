@@ -32,12 +32,12 @@ function NewKegForm(props) {
         placeholder="Description & Notes" /><br />
 
         <input
-        type="number"
+        type="double"
         name="abv"
         placeholder="Alcohol By Volume" /><br />
 
         <input
-        type="number"
+        type="double"
         name="price"
         placeholder="Price Per Keg" /><br />
         <button type="submit">Add Keg</button>

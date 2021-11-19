@@ -8,7 +8,7 @@ function Keg(props){
 
   return (
     <div className="container">
-      <div style={kegStyles} className="card">
+      <div onClick = {() => props.whenKegClicked(props.id)} style={kegStyles} className="card">
         <h3>{props.beer} {props.style}</h3>
         <h4>{props.brewery}</h4>
         <p>{props.description}</p>
@@ -27,7 +27,8 @@ Keg.propTypes = {
   description: PropTypes.string,
   abv: PropTypes.number,
   price: PropTypes.number,
-  id: PropTypes.string
+  id: PropTypes.string,
+  whenKegClicked: PropTypes.func
 }
 
 export default Keg;
