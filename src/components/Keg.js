@@ -14,7 +14,7 @@ function Keg(props){
         <p>{props.description}</p>
         <p>ABV: {props.abv} %</p>
         <p>Price Per Keg: $ {props.price}</p>
-        <p>Price Per Pint: $ {props.price/124}</p>
+        <p>Price Per Pint: $ {((props.price/124)*3).toFixed(2)}</p>
       </div>
     </div>
   );
