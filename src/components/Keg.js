@@ -3,18 +3,19 @@ import PropTypes from "prop-types";
 
 function Keg(props){
   const kegStyles = {
-    className: 'card',
     width:'500px'
   }
 
   return (
-    <div style={kegStyles}>
-      <h3>{props.beer} {props.style}</h3>
-      <h4>{props.brewery}</h4>
-      <p>{props.description}</p>
-      <p>ABV: {props.abv} %</p>
-      <p>Price Per Keg: $ {props.price}</p>
-      <p>Price Per Pint: $ {props.price/124}</p>
+    <div className="container">
+      <div style={kegStyles} className="card">
+        <h3>{props.beer} {props.style}</h3>
+        <h4>{props.brewery}</h4>
+        <p>{props.description}</p>
+        <p>ABV: {props.abv} %</p>
+        <p>Price Per Keg: $ {props.price}</p>
+        <p>Price Per Pint: $ {props.price/124}</p>
+      </div>
     </div>
   );
 }
