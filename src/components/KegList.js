@@ -24,6 +24,7 @@ import PropTypes from "prop-types";
 
 function KegList(props) {
   return (
+    <>
     <div id="kegGrid">
       {props.kegList.map((keg) =>
       <Keg 
@@ -38,6 +39,7 @@ function KegList(props) {
       key={keg.id} />
       )}
     </div>
+    </>
   );
 }
 
