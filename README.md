@@ -1,9 +1,9 @@
-# Pony Keg
-### Why should humans have all the fun?
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/tigertiger/pony-keg/main/src/img/horse-friend-round.png" width="250" style="border-radius=50%;" /><br/><br />
-<big>Beast Rescue of the Pacific Northwest</big>
+<big>Pony Keg</big>
+<Br />
+Why should humans have all the fun?
 </p>
 <p align="center">
 <i>Melissa Scmi</i>
@@ -12,7 +12,7 @@
 ------------------------------
 
 <br/>
-This API & companion MVC app allow users to browse, add to, & update the current animals living at Beast Rescue of the Pacific Northwest.<br/><br />
+This simple web app allows users to pretend to stock beer, and to sell it! We've got prices, we've got quantities, we've got all the most fun things about beer!<br/><br />
 
 ------------------------------
 <p align="center">
