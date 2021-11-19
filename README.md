@@ -16,7 +16,8 @@ This API & companion MVC app allow users to browse, add to, & update the current
 
 ------------------------------
 <p align="center">
-<img src="https://raw.githubusercontent.com/tigertiger/pony-keg/main/src/img/component-diagram.jpg" width="600" /><br/><br />
+<img src="https://raw.githubusercontent.com/tigertiger/pony-keg/main/src/img/component-diagram-main.jpg" width="600" />
+<img src="https://raw.githubusercontent.com/tigertiger/pony-keg/main/src/img/component-diagram-details.jpg" width="600" /><br/><br />
 </p>
 <br/>
 
