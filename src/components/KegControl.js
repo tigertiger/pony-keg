@@ -43,7 +43,10 @@ class KegControl extends React.Component {
     let tappingKeg = this.state.mainKegList.filter(keg => keg.id === this.state.selectedKeg.id)[0];
 
     if (tappingKeg.pintsLeft === 0) {
-      alert("OUT OF STOCK, JERK");
+      alert("This Keg is Tapped!");
+      alert("Sorry for the alert!");
+      alert("Alright, I'm just screwing with you now");
+      alert("Sorry, again");
     } else {
       tappingKeg = tappingKeg.pintsLeft --;
 

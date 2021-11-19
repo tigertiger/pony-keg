@@ -15,7 +15,7 @@ function KegDetail(props){
           <p>Price Per Keg: $ {keg.price}</p>
           <p>Price Per Pint: $ {((keg.price/124)*3).toFixed(2)}</p>
           <p>Pints Left in Keg: {keg.pintsLeft}</p>
-          <button className="button" id="sellPint" onClick={props.onClickingSellPint}>Sell Pint</button>
+          <button id="sellPint" onClick={props.onClickingSellPint}>Sell Pint</button>
         </div>
       </div>
     </>
