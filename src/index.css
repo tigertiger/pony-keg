@@ -33,3 +33,9 @@ h1 {
   grid-template-areas:
   'main main main';
 }
+
+#friendButton {
+  display:block;
+  margin:10px auto;
+  padding: 5px 10px;
+}

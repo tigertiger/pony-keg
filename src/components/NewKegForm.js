@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 function NewKegForm(props) {
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
-    props.onNewKegCreation({beer: event.target.beer.value, style: event.target.style.value, brewery: event.target.brewery.value, description: event.target.description.value, abv: event.target.abv.value, price: event.target.price.value, id: v4()});
+    props.onNewKegCreation({beer: event.target.beer.value, style: event.target.style.value, brewery: event.target.brewery.value, description: event.target.description.value, abv: event.target.abv.value, pintsLeft: 124, price: event.target.price.value, id: v4()});
   }
 
   return(
