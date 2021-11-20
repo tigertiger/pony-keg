@@ -28,7 +28,6 @@ h1 {
 
 #kegGrid {
   margin:auto;
-  width:80%;
   display:grid;
   grid-template-areas:
   'main main main';
@@ -36,7 +35,7 @@ h1 {
 
 #friendButton {
   display:block;
-  margin:10px auto;
+  margin:20px auto 50px;
   padding: 5px 10px;
 }
 

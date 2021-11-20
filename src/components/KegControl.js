@@ -2,7 +2,7 @@ import React from "react";
 import NewKegForm from "./NewKegForm";
 import KegList from "./KegList";
 import KegDetail from "./KegDetail";
-
+import { v4 } from 'uuid';
 
 class KegControl extends React.Component {
 
@@ -10,7 +10,38 @@ class KegControl extends React.Component {
     super(props);
     this.state = {
       formVisibleOnPage:false,
-      mainKegList: [],
+      mainKegList: [
+        {
+          beer: 'Blind Pig',
+          style: 'IPA',
+          brewery: 'Russian River',
+          description: 'Full-bodied, very hoppy, with citrus, pine, fruity notes, and a nice dry, bitter finish!',
+          abv: '6.25',
+          price: '319',
+          id: v4(),
+          pintsLeft: 124
+        },
+        {
+          beer: 'Pallet Jack',
+          style: 'IPA',
+          brewery: 'Barley Brown\'s',
+          description: 'Multiple dry hop additions deliver an awesome hop aroma filled with citrus, tropical fruit, and a touch of pine. The light body has just enough malt complexity to balance the hops. Multi time GABF medalist.',
+          abv: '7.2',
+          price: '250',
+          id: v4(),
+          pintsLeft: 124
+        },
+        {
+          beer: 'German Pale Ale',
+          style: '',
+          brewery: 'Rosenstadt',
+          description: 'Rosenstadt German Pale Ale is hop-forward in the American fashion. German Polaris, Mandarina Bavaria and Amarillo hops have some American heritage, and create an unusual flavor profile with notes of tangerine, orange, and mint.    ',
+          abv: '5.4',
+          price: '250',
+          id: v4(),
+          pintsLeft: 124
+        }
+      ],
       selectedKeg: null
     };
   }

@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 
 function Keg(props){
   const kegStyles = {
-    width:'500px'
+    width:'460px',
+    margin:'0 auto'
   }
 
   return (
