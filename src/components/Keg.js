@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Keg(props){
   const kegStyles = {
     width:'460px',
-    margin:'0 auto'
+    margin:'10px auto'
   }
 
   return (

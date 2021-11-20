@@ -41,4 +41,10 @@ h1 {
 
 #sellPint {
   width: 90px;
+  margin:5px 0;
+}
+
+#freshKeg {
+  width:90px;
+  margin:5px 0;
 }
