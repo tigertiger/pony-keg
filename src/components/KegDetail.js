@@ -16,6 +16,7 @@ function KegDetail(props){
           <p>Price Per Pint: $ {((keg.price/124)*3).toFixed(2)}</p>
           <p>Pints Left in Keg: {keg.pintsLeft}</p>
           <button id="sellPint" onClick={props.onClickingSellPint}>Sell Pint</button>
+          <button id="freshKeg" onClick={props.onClickingFreshKeg}>Fresh Keg</button>
         </div>
       </div>
     </>
@@ -24,7 +25,8 @@ function KegDetail(props){
 
 KegDetail.propTypes = {
   keg: PropTypes.object,
-  onClickingSellPint: PropTypes.func
+  onClickingSellPint: PropTypes.func,
+  onClickingFreshKeg: PropTypes.func
 };
 
 export default KegDetail;

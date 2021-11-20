@@ -1,12 +1,11 @@
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/tigertiger/pony-keg/main/src/img/horse-friend-round.png" width="250" style="border-radius=50%;" /><br/><br />
-<big>Pony Keg</big>
-<Br />
-Why should humans have all the fun?
-</p>
+<img src="https://raw.githubusercontent.com/tigertiger/pony-keg/main/src/img/horse-friend-round.png" width="250" style="border-radius=50%;" /><br/><br /></p>
+<h1 align="center">Pony Keg</h1>
+<h2 align="center">Why should humans have all the fun?</h3>
+
 <p align="center">
-<i>Melissa Scmi</i>
+<i>by Melissa Scmi</i>
 <br/>
 
 ------------------------------
@@ -57,7 +56,7 @@ This simple web app allows users to pretend to stock beer, and to sell it! We've
 * Use ```npm run start``` in your terminal/command line to view & interact with the live app
 
 ### Known Issues
-* _Pints Left doesn't display on primary list page_
+* _It's not as good as it should be_
 
 <br />
 
